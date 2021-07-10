@@ -10,6 +10,7 @@ const initialInputState = {
 }
 
 const inputStateReducer = (state, action) => {
+  console.log(test);
   if (action.type === 'INPUT') {
     return {
       value: action.value,
